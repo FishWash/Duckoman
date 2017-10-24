@@ -9,12 +9,12 @@
     <script src="TemplateData/UnityProgress.js"></script>
   </head>
   <body class="template">
-    <p>Duckoman by Jonathan Fox.<br>Controls: WASD or ???? to move. L or Space to jump.</p>
+    <p>Duckoman by Jonathan Fox.<br>Controls: WASD or ↑↓←→ to move. L or Space to jump.</p>
     <div class="template-wrap clear">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="400px" width="640px"></canvas>
       <br>
       <div class="logo"></div>
-      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+      <button onclick="SetFullscreen(1);"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen"/></button>
       <div class="title">Duckoman</div>
     </div>
     <script type='text/javascript'>
